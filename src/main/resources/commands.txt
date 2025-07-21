@@ -16,6 +16,6 @@ docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
 - credentials
 username = margarita_murazyan password=chemmorana
 
-
+=====
 sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.jenkins.plist
 sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.jenkins.plist
