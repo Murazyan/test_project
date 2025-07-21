@@ -1,0 +1,21 @@
+- JENKINS Installation
+brew install jenkins-lts
+
+- JENKINS RUN
+brew services start jenkins-lts
+
+- GET PASSWORD
+cat /Users/$(whoami)/.jenkins/secrets/initialAdminPassword
+
+- STOP JENKINS
+brew services stop jenkins-lts
+
+-DOCKER COMMAND
+docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+
+- credentials
+username = margarita_murazyan password=chemmorana
+
+
+sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.jenkins.plist
+sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.jenkins.plist
