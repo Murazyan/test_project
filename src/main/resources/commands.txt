@@ -19,3 +19,5 @@ username = margarita_murazyan password=chemmorana
 =========
 sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.jenkins.plist
 sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.jenkins.plist
+======
+ngrok http 9090
